@@ -1,0 +1,6 @@
+<h3>Часы</h3>
+
+<button routerLink="details" (click)="params()">Детальная ифнормация</button>
+<button routerLink="list" [queryParams]="{'list': 1,'enable' : true}">Список товаров</button>
+
+<router-outlet></router-outlet>
